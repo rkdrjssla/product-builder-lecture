@@ -52,6 +52,20 @@ ${titleGuide}
 - 마무리: 핵심 요약 1~2줄 + 독자에게 행동 유도 한 마디
 - **강조**, 목록(- ), 인용(>) 적극 활용
 
+## 이미지 삽입 규칙
+
+본문 내 자연스러운 위치(도입부 직후, 주요 소목차 1~2개 뒤)에 아래 이미지 목록에서 주제와 가장 어울리는 것을 골라 마크다운 이미지 태그로 삽입하세요. 총 2~3장.
+
+사용 가능한 이미지:
+- 창업/비즈니스 시작: ![창업 시작](https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&auto=format&fit=crop)
+- 노트북/작업 환경: ![노트북 작업](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop)
+- 성장/수익 그래프: ![성장 그래프](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop)
+- 커피/카페 작업: ![카페 작업](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop)
+- 팀 회의/네트워크: ![팀 미팅](https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop)
+- 사무실/오피스: ![오피스](https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&auto=format&fit=crop)
+- 스마트폰/모바일: ![스마트폰](https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&auto=format&fit=crop)
+- 계획/노트 작성: ![계획 수립](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop)
+
 ## 응답 형식
 
 반드시 아래 JSON 형식으로만 응답 (다른 텍스트 없이):
@@ -59,7 +73,7 @@ ${titleGuide}
   "title": "최종 선택한 제목",
   "titleCandidates": ["후보1", "후보2", "후보3"],
   "excerpt": "검색 결과에 노출될 2~3문장 요약 (핵심 키워드 포함)",
-  "content": "마크다운 본문 전체",
+  "content": "마크다운 본문 전체 (이미지 포함)",
   "tags": ["태그1", "태그2", "태그3", "태그4", "태그5"]
 }`
 
