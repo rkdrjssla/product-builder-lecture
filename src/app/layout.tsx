@@ -20,12 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className={`${geist.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-white text-gray-900">
+      <body className="min-h-full flex flex-col bg-gray-950 text-white">
         <Header />
         <main className="flex-1 max-w-2xl mx-auto w-full px-4 py-10">
           {children}
         </main>
-        <footer className="border-t border-gray-200 py-6 text-center text-sm text-gray-400">
+        <footer className="border-t border-gray-800 py-6 text-center text-sm text-gray-500">
           © 2026 블로그창업 일지
         </footer>
       </body>

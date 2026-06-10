@@ -13,17 +13,17 @@ export default function BlogPage() {
       ) : (
         <ul className="space-y-8">
           {posts.map((post) => (
-            <li key={post.slug} className="border-b border-gray-100 pb-8">
+            <li key={post.slug} className="border-b border-gray-800 pb-8">
               <Link href={`/blog/${post.slug}`} className="group block">
-                <p className="text-xs text-gray-400 mb-1">{post.date}</p>
-                <h2 className="text-xl font-semibold mb-2 group-hover:underline">{post.title}</h2>
+                <p className="text-xs text-gray-500 mb-1">{post.date}</p>
+                <h2 className="text-xl font-semibold mb-2 text-white group-hover:underline">{post.title}</h2>
                 {post.excerpt && (
-                  <p className="text-gray-500 text-sm leading-relaxed">{post.excerpt}</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">{post.excerpt}</p>
                 )}
                 {post.tags && post.tags.length > 0 && (
                   <div className="flex gap-2 mt-3">
                     {post.tags.map((tag) => (
-                      <span key={tag} className="text-xs bg-gray-100 text-gray-500 px-2 py-1 rounded">
+                      <span key={tag} className="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">
                         {tag}
                       </span>
                     ))}
